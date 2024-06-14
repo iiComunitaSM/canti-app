@@ -462,6 +462,20 @@ const canti = [
     quaresima: false,
     pentecoste: true,
   },
+  {
+    titolo: 'Quando israele era un bimbo',
+    sottotitolo: 'Cfr. Os 11, 1-11',
+    link:'http://win.catechista.it/cartelladisicurezza/camminoneocatecumenale/canti_del_cammino/risuscito/quando_israele_era_un_bimbo.htm',
+    ingresso: false,
+    pace: false,
+    pane: false,
+    vino: false,
+    finale: false,
+    aMaria: false,
+    natale: false,
+    quaresima: false,
+    pentecoste: false,
+  },
 ]
 
 export default canti
