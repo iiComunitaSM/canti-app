@@ -33,6 +33,11 @@ const Title = styled.div`
   font-family: "IBM Plex Mono", monospace;
   font-size: 2.5vh;
 `;
+const Sottotitolo = styled.div`
+  font-weight: 300;
+  ont-family: "Roboto", sans-serif;
+  font-size: 1.8vh;
+`;
 const Container = styled.div`
   width: 100%;
   margin-top: 1vh;
@@ -59,6 +64,7 @@ const Item = (props) => {
   return <Box href={props.link}>
     <Detail>
       <Title>{props.title}</Title>
+      <Sottotitolo>{props.sottotitolo}</Sottotitolo>
       <Container>
         { props.ingresso && <ContainerItem color='#FCAE7C'>Ingresso</ContainerItem>}
         { props.pace && <ContainerItem color='#FFE699'>Pace</ContainerItem>}
