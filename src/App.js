@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import './App.css';
 import canti from './Canti/Lista/Canti'
 import { Item } from './Canti/Format/Format';
