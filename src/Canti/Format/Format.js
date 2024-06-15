@@ -7,7 +7,7 @@ const Box = styled.a`
   width: 80%;
   max-width: 400px;
   padding: 1%;
-  border-bottom: solid 1px;
+  border-bottom: solid 0.5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,9 +29,10 @@ const Arrow = styled.a`
   justify-content: center;
 `;
 const Title = styled.div`
-  font-weight: 600;
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 2.5vh;
+  font-weight: 900;
+  font-family: "Inter", sans-serif, "IBM Plex Mono", monospace;
+  font-size: 3.2vh;
+  color: #8d0000;
 `;
 const Sottotitolo = styled.div`
   font-weight: 300;
@@ -58,6 +59,7 @@ const ContainerItem = styled.div`
   padding: 7px;
   border-radius: 10px;
   background-color: ${props => props.color};
+  color: ${props => props.textColor};
 `;
 
 const Item = (props) => {
@@ -66,14 +68,15 @@ const Item = (props) => {
       <Title>{props.title}</Title>
       <Sottotitolo>{props.sottotitolo}</Sottotitolo>
       <Container>
-        { props.ingresso && <ContainerItem color='#FCAE7C'>Ingresso</ContainerItem>}
-        { props.pace && <ContainerItem color='#FFE699'>Pace</ContainerItem>}
-        { props.pane && <ContainerItem color='#F9FFB5'>Pane</ContainerItem>}
-        { props.vino && <ContainerItem color='#B3F5BC'>Vino</ContainerItem>}
-        { props.aMaria && <ContainerItem color='#D6F6FF'>A Maria</ContainerItem>}
-        { props.natale && <ContainerItem color='#E2CBF7'>Natale</ContainerItem>}
-        { props.quaresima && <ContainerItem color='#D1BDFF'>Quaresima</ContainerItem>}
-        { props.pentecoste && <ContainerItem color='#FA9189'>Pentecoste</ContainerItem>}
+        { props.ingresso && <ContainerItem color='#003f5c' textColor="white">Ingresso</ContainerItem>}
+        { props.pace && <ContainerItem color='#58508d' textColor="white">Pace</ContainerItem>}
+        { props.pane && <ContainerItem color='#8a508f' textColor="white">Pane</ContainerItem>}
+        { props.vino && <ContainerItem color='#bc5090' textColor="white">Vino</ContainerItem>}
+        { props.finale && <ContainerItem color='#ffd380' textColor="black">Finale</ContainerItem>}
+        { props.aMaria && <ContainerItem color='#de5a79' textColor="white">A Maria</ContainerItem>}
+        { props.natale && <ContainerItem color='#ff6361' textColor="white">Natale</ContainerItem>}
+        { props.quaresima && <ContainerItem color='#ff8531' textColor="black">Quaresima</ContainerItem>}
+        { props.pentecoste && <ContainerItem color='#ffa600' textColor="black">Pentecoste</ContainerItem>}
       </Container>
     </Detail>
     <Arrow>

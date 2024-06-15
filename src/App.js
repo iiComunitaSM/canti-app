@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <div className='titolo'>II Comunità di San Marco</div>
-      <div className='sottotitolo'>canti da selezionare in fase di preparazione</div>
+      <div className='sottotitolo'>- Canti da selezionare in fase di preparazione -</div>
       <div className='desc'>Indicazioni per la selezione dei canti:<br/><br/>- <strong>Eucarestia</strong>. scegliere canti per: ingresso, pace, pane, vino e finale. Bisogna scegliere i canti contrassegnati con la rispettiva etichetta
         <br/><br/>- <strong>Parola</strong>. segliere i canti per: ingresso, I lettura, II lettura, III lettura e finale. I canti di ingresso e finale devono essere scelti tra quelli contrassegnati con la rispettiva etichetta, per i canti delle letture, invece, è possibile scegliere tra tutti quelli disponibili
         <br/><br/>E' consigliabile, ma non necessario rispettare i periodi liturgici suggeriti dal canto<br/><br/>
