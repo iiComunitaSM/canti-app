@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/canti-app/static/css/main.f1479f02.css",
-    "main.js": "/canti-app/static/js/main.3462d0bd.js",
+    "main.css": "/canti-app/static/css/main.955e2d19.css",
+    "main.js": "/canti-app/static/js/main.a294e465.js",
     "static/js/453.27a76a08.chunk.js": "/canti-app/static/js/453.27a76a08.chunk.js",
     "index.html": "/canti-app/index.html",
-    "main.f1479f02.css.map": "/canti-app/static/css/main.f1479f02.css.map",
-    "main.3462d0bd.js.map": "/canti-app/static/js/main.3462d0bd.js.map",
+    "main.955e2d19.css.map": "/canti-app/static/css/main.955e2d19.css.map",
+    "main.a294e465.js.map": "/canti-app/static/js/main.a294e465.js.map",
     "453.27a76a08.chunk.js.map": "/canti-app/static/js/453.27a76a08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1479f02.css",
-    "static/js/main.3462d0bd.js"
+    "static/css/main.955e2d19.css",
+    "static/js/main.a294e465.js"
   ]
 }
